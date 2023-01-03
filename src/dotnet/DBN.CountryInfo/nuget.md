@@ -1,5 +1,5 @@
 # DBN.CountryInfo
-.NET library to load country data, incl. image flags (.png/.svg). 
+.NET library to load country data, incl. flag images (.png/.svg). 
 
 Documentation is available on [GitHub](https://github.com/dnbnt/countryinfo/tree/main/src/dotnet/DBN.CountryInfo).
 
