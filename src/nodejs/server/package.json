@@ -1,0 +1,13 @@
+{
+    "name": "dbn.countryinfo",
+    "version": "1.0.0",
+    "description": "country info server in node.js",
+    "author": "Daniel Bennett <dnnybnt@gmail.com>",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.16.1"
+    }
+}

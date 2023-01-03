@@ -13,18 +13,19 @@ help:
 	@echo "build         : build all projects"
 	@echo "dotnet-lib    : build DBN.CountryInfo, incl. nuget package"
 	@echo "dotnet-service: build DBN.CountryInfo.Service, incl. docker image"
+	@echo "nodejs-service: build dnbnt/countryinfo node.js docker image"
 
 .DEFAULT_GOAL := help
 
 init:
 	@mkdir -p $$(pwd)/data
 	@docker run --rm \
-		-v $$(pwd)/data:/data \
-		-v $$(pwd)/src/scripts:/src mcr.microsoft.com/powershell \
-		pwsh /src/dumpResources.ps1 -DumpPath /data
+		-v $$(pwd):/repo \
+		mcr.microsoft.com/powershell \
+		pwsh /repo/src/scripts/dumpResources.ps1 -BasePath /repo -NodeJs
 
 dotnet-lib:
-	@echo "===== build project: DBN.CountryInfo"
+	@echo "===== build .net project: DBN.CountryInfo"
 	@docker run --rm \
 		-v $$(pwd):/repo \
 		-w /repo/src/dotnet/DBN.CountryInfo mcr.microsoft.com/dotnet/sdk \
@@ -38,7 +39,7 @@ dotnet-lib:
 					-p:NuspecFile=./DBN.CountryInfo.nuspec
 
 dotnet-service:
-	@echo "\n===== publish project: DBN.CountryInfo.Service"
+	@echo "\n===== publish .net project: DBN.CountryInfo.Service"
 	@docker run --rm \
 		-v $$(pwd):/repo \
 		-w /repo/src/dotnet/DBN.CountryInfo.Service mcr.microsoft.com/dotnet/sdk \
@@ -48,10 +49,16 @@ dotnet-service:
 		-w /repo/src/dotnet/DBN.CountryInfo.Service mcr.microsoft.com/dotnet/sdk \
 		dotnet publish -c release
 	@echo "\n===== build docker image: dnbnt/countryinfo:${VERSION}"
-	@docker build \
-		-t dnbnt/countryinfo:${VERSION} \
+	@docker build --no-cache --pull \
+		-t dnbnt/countryinfo:${VERSION}-net \
 		-f $$(pwd)/src/dotnet/DBN.CountryInfo.Service/Dockerfile $$(pwd)
 
-build: dotnet-lib dotnet-service
+nodejs-service:
+	@echo "===== build node.js project: dbn.countryinfo"
+	@docker build --no-cache --pull \
+		-t dnbnt/countryinfo:${VERSION}-nodejs \
+		-f $$(pwd)/src/nodejs/server/Dockerfile $$(pwd)/src/nodejs/server
+
+build: dotnet-lib dotnet-service nodejs-service
 
 all: init build

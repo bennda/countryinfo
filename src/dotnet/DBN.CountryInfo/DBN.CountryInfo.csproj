@@ -9,508 +9,507 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="..\..\..\data\countries.json" Link="Data\countries.json" />
-    <EmbeddedResource Include="..\..\..\data\flags\hu.svg" Link="Data\Flags\hu.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\hu.png" Link="Data\Flags\hu.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\aw.svg" Link="Data\Flags\aw.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\aw.png" Link="Data\Flags\aw.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\eh.svg" Link="Data\Flags\eh.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\eh.png" Link="Data\Flags\eh.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\af.svg" Link="Data\Flags\af.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\af.png" Link="Data\Flags\af.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\cw.svg" Link="Data\Flags\cw.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\cw.png" Link="Data\Flags\cw.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ec.svg" Link="Data\Flags\ec.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ec.png" Link="Data\Flags\ec.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\sb.svg" Link="Data\Flags\sb.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\sb.png" Link="Data\Flags\sb.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\mu.svg" Link="Data\Flags\mu.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\mu.png" Link="Data\Flags\mu.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\bw.svg" Link="Data\Flags\bw.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\bw.png" Link="Data\Flags\bw.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\tv.svg" Link="Data\Flags\tv.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\tv.png" Link="Data\Flags\tv.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\gd.svg" Link="Data\Flags\gd.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\gd.png" Link="Data\Flags\gd.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ir.svg" Link="Data\Flags\ir.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ir.png" Link="Data\Flags\ir.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\mf.svg" Link="Data\Flags\mf.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\mf.png" Link="Data\Flags\mf.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\cl.svg" Link="Data\Flags\cl.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\cl.png" Link="Data\Flags\cl.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\lt.svg" Link="Data\Flags\lt.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\lt.png" Link="Data\Flags\lt.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\sr.svg" Link="Data\Flags\sr.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\sr.png" Link="Data\Flags\sr.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\kg.svg" Link="Data\Flags\kg.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\kg.png" Link="Data\Flags\kg.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\st.svg" Link="Data\Flags\st.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\st.png" Link="Data\Flags\st.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\py.svg" Link="Data\Flags\py.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\py.png" Link="Data\Flags\py.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\no.svg" Link="Data\Flags\no.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\no.png" Link="Data\Flags\no.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\mc.svg" Link="Data\Flags\mc.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\mc.png" Link="Data\Flags\mc.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\pn.svg" Link="Data\Flags\pn.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\pn.png" Link="Data\Flags\pn.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\sa.svg" Link="Data\Flags\sa.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\sa.png" Link="Data\Flags\sa.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\bb.svg" Link="Data\Flags\bb.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\bb.png" Link="Data\Flags\bb.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\io.svg" Link="Data\Flags\io.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\io.png" Link="Data\Flags\io.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\sn.svg" Link="Data\Flags\sn.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\sn.png" Link="Data\Flags\sn.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\pr.svg" Link="Data\Flags\pr.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\pr.png" Link="Data\Flags\pr.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\cc.svg" Link="Data\Flags\cc.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\cc.png" Link="Data\Flags\cc.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\vn.svg" Link="Data\Flags\vn.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\vn.png" Link="Data\Flags\vn.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\sk.svg" Link="Data\Flags\sk.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\sk.png" Link="Data\Flags\sk.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\tt.svg" Link="Data\Flags\tt.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\tt.png" Link="Data\Flags\tt.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ax.svg" Link="Data\Flags\ax.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ax.png" Link="Data\Flags\ax.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\in.svg" Link="Data\Flags\in.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\in.png" Link="Data\Flags\in.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\pa.svg" Link="Data\Flags\pa.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\pa.png" Link="Data\Flags\pa.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\gw.svg" Link="Data\Flags\gw.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\gw.png" Link="Data\Flags\gw.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\lv.svg" Link="Data\Flags\lv.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\lv.png" Link="Data\Flags\lv.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ro.svg" Link="Data\Flags\ro.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ro.png" Link="Data\Flags\ro.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ki.svg" Link="Data\Flags\ki.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ki.png" Link="Data\Flags\ki.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\vg.svg" Link="Data\Flags\vg.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\vg.png" Link="Data\Flags\vg.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ws.svg" Link="Data\Flags\ws.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ws.png" Link="Data\Flags\ws.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ee.svg" Link="Data\Flags\ee.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ee.png" Link="Data\Flags\ee.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\bn.svg" Link="Data\Flags\bn.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\bn.png" Link="Data\Flags\bn.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\mx.svg" Link="Data\Flags\mx.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\mx.png" Link="Data\Flags\mx.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\cz.svg" Link="Data\Flags\cz.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\cz.png" Link="Data\Flags\cz.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\dk.svg" Link="Data\Flags\dk.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\dk.png" Link="Data\Flags\dk.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\sl.svg" Link="Data\Flags\sl.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\sl.png" Link="Data\Flags\sl.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\bs.svg" Link="Data\Flags\bs.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\bs.png" Link="Data\Flags\bs.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\za.svg" Link="Data\Flags\za.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\za.png" Link="Data\Flags\za.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\jm.svg" Link="Data\Flags\jm.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\jm.png" Link="Data\Flags\jm.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\th.svg" Link="Data\Flags\th.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\th.png" Link="Data\Flags\th.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\gh.svg" Link="Data\Flags\gh.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\gh.png" Link="Data\Flags\gh.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\es.svg" Link="Data\Flags\es.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\es.png" Link="Data\Flags\es.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\jp.svg" Link="Data\Flags\jp.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\jp.png" Link="Data\Flags\jp.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\fr.svg" Link="Data\Flags\fr.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\fr.png" Link="Data\Flags\fr.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\cy.svg" Link="Data\Flags\cy.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\cy.png" Link="Data\Flags\cy.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\fj.svg" Link="Data\Flags\fj.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\fj.png" Link="Data\Flags\fj.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\mq.svg" Link="Data\Flags\mq.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\mq.png" Link="Data\Flags\mq.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\cr.svg" Link="Data\Flags\cr.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\cr.png" Link="Data\Flags\cr.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\nl.svg" Link="Data\Flags\nl.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\nl.png" Link="Data\Flags\nl.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\va.svg" Link="Data\Flags\va.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\va.png" Link="Data\Flags\va.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\bm.svg" Link="Data\Flags\bm.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\bm.png" Link="Data\Flags\bm.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\is.svg" Link="Data\Flags\is.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\is.png" Link="Data\Flags\is.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\kw.svg" Link="Data\Flags\kw.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\kw.png" Link="Data\Flags\kw.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\gl.svg" Link="Data\Flags\gl.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\gl.png" Link="Data\Flags\gl.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ma.svg" Link="Data\Flags\ma.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ma.png" Link="Data\Flags\ma.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\mk.svg" Link="Data\Flags\mk.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\mk.png" Link="Data\Flags\mk.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\mt.svg" Link="Data\Flags\mt.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\mt.png" Link="Data\Flags\mt.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\qa.svg" Link="Data\Flags\qa.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\qa.png" Link="Data\Flags\qa.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ao.svg" Link="Data\Flags\ao.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ao.png" Link="Data\Flags\ao.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ps.svg" Link="Data\Flags\ps.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ps.png" Link="Data\Flags\ps.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\na.svg" Link="Data\Flags\na.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\na.png" Link="Data\Flags\na.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\au.svg" Link="Data\Flags\au.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\au.png" Link="Data\Flags\au.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\cg.svg" Link="Data\Flags\cg.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\cg.png" Link="Data\Flags\cg.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\lc.svg" Link="Data\Flags\lc.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\lc.png" Link="Data\Flags\lc.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ky.svg" Link="Data\Flags\ky.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ky.png" Link="Data\Flags\ky.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\gs.svg" Link="Data\Flags\gs.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\gs.png" Link="Data\Flags\gs.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\gt.svg" Link="Data\Flags\gt.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\gt.png" Link="Data\Flags\gt.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\tr.svg" Link="Data\Flags\tr.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\tr.png" Link="Data\Flags\tr.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\mp.svg" Link="Data\Flags\mp.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\mp.png" Link="Data\Flags\mp.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\cv.svg" Link="Data\Flags\cv.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\cv.png" Link="Data\Flags\cv.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\bh.svg" Link="Data\Flags\bh.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\bh.png" Link="Data\Flags\bh.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ng.svg" Link="Data\Flags\ng.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ng.png" Link="Data\Flags\ng.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\bf.svg" Link="Data\Flags\bf.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\bf.png" Link="Data\Flags\bf.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\np.svg" Link="Data\Flags\np.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\np.png" Link="Data\Flags\np.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\kz.svg" Link="Data\Flags\kz.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\kz.png" Link="Data\Flags\kz.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ls.svg" Link="Data\Flags\ls.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ls.png" Link="Data\Flags\ls.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\lb.svg" Link="Data\Flags\lb.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\lb.png" Link="Data\Flags\lb.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\nz.svg" Link="Data\Flags\nz.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\nz.png" Link="Data\Flags\nz.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\cx.svg" Link="Data\Flags\cx.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\cx.png" Link="Data\Flags\cx.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ni.svg" Link="Data\Flags\ni.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ni.png" Link="Data\Flags\ni.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\tk.svg" Link="Data\Flags\tk.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\tk.png" Link="Data\Flags\tk.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\sg.svg" Link="Data\Flags\sg.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\sg.png" Link="Data\Flags\sg.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ar.svg" Link="Data\Flags\ar.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ar.png" Link="Data\Flags\ar.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\am.svg" Link="Data\Flags\am.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\am.png" Link="Data\Flags\am.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\md.svg" Link="Data\Flags\md.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\md.png" Link="Data\Flags\md.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\co.svg" Link="Data\Flags\co.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\co.png" Link="Data\Flags\co.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\kr.svg" Link="Data\Flags\kr.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\kr.png" Link="Data\Flags\kr.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\to.svg" Link="Data\Flags\to.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\to.png" Link="Data\Flags\to.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\gb.svg" Link="Data\Flags\gb.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\gb.png" Link="Data\Flags\gb.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\rw.svg" Link="Data\Flags\rw.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\rw.png" Link="Data\Flags\rw.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ss.svg" Link="Data\Flags\ss.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ss.png" Link="Data\Flags\ss.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\cd.svg" Link="Data\Flags\cd.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\cd.png" Link="Data\Flags\cd.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\km.svg" Link="Data\Flags\km.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\km.png" Link="Data\Flags\km.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\yt.svg" Link="Data\Flags\yt.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\yt.png" Link="Data\Flags\yt.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\eg.svg" Link="Data\Flags\eg.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\eg.png" Link="Data\Flags\eg.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\jo.svg" Link="Data\Flags\jo.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\jo.png" Link="Data\Flags\jo.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ru.svg" Link="Data\Flags\ru.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ru.png" Link="Data\Flags\ru.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\hk.svg" Link="Data\Flags\hk.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\hk.png" Link="Data\Flags\hk.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\tc.svg" Link="Data\Flags\tc.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\tc.png" Link="Data\Flags\tc.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\fm.svg" Link="Data\Flags\fm.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\fm.png" Link="Data\Flags\fm.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ga.svg" Link="Data\Flags\ga.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ga.png" Link="Data\Flags\ga.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\tm.svg" Link="Data\Flags\tm.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\tm.png" Link="Data\Flags\tm.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\er.svg" Link="Data\Flags\er.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\er.png" Link="Data\Flags\er.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\pg.svg" Link="Data\Flags\pg.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\pg.png" Link="Data\Flags\pg.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\pk.svg" Link="Data\Flags\pk.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\pk.png" Link="Data\Flags\pk.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\sm.svg" Link="Data\Flags\sm.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\sm.png" Link="Data\Flags\sm.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\tz.svg" Link="Data\Flags\tz.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\tz.png" Link="Data\Flags\tz.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ke.svg" Link="Data\Flags\ke.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ke.png" Link="Data\Flags\ke.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\gm.svg" Link="Data\Flags\gm.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\gm.png" Link="Data\Flags\gm.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ly.svg" Link="Data\Flags\ly.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ly.png" Link="Data\Flags\ly.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\tg.svg" Link="Data\Flags\tg.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\tg.png" Link="Data\Flags\tg.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\im.svg" Link="Data\Flags\im.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\im.png" Link="Data\Flags\im.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\cu.svg" Link="Data\Flags\cu.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\cu.png" Link="Data\Flags\cu.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\by.svg" Link="Data\Flags\by.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\by.png" Link="Data\Flags\by.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\tj.svg" Link="Data\Flags\tj.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\tj.png" Link="Data\Flags\tj.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\iq.svg" Link="Data\Flags\iq.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\iq.png" Link="Data\Flags\iq.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ye.svg" Link="Data\Flags\ye.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ye.png" Link="Data\Flags\ye.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\om.svg" Link="Data\Flags\om.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\om.png" Link="Data\Flags\om.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\si.svg" Link="Data\Flags\si.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\si.png" Link="Data\Flags\si.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\mz.svg" Link="Data\Flags\mz.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\mz.png" Link="Data\Flags\mz.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\at.svg" Link="Data\Flags\at.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\at.png" Link="Data\Flags\at.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\aq.svg" Link="Data\Flags\aq.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\aq.png" Link="Data\Flags\aq.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\gy.svg" Link="Data\Flags\gy.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\gy.png" Link="Data\Flags\gy.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\nu.svg" Link="Data\Flags\nu.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\nu.png" Link="Data\Flags\nu.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\wf.svg" Link="Data\Flags\wf.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\wf.png" Link="Data\Flags\wf.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\al.svg" Link="Data\Flags\al.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\al.png" Link="Data\Flags\al.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\bi.svg" Link="Data\Flags\bi.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\bi.png" Link="Data\Flags\bi.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\bo.svg" Link="Data\Flags\bo.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\bo.png" Link="Data\Flags\bo.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\as.svg" Link="Data\Flags\as.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\as.png" Link="Data\Flags\as.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ht.svg" Link="Data\Flags\ht.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ht.png" Link="Data\Flags\ht.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\dz.svg" Link="Data\Flags\dz.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\dz.png" Link="Data\Flags\dz.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\pm.svg" Link="Data\Flags\pm.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\pm.png" Link="Data\Flags\pm.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\et.svg" Link="Data\Flags\et.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\et.png" Link="Data\Flags\et.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\kn.svg" Link="Data\Flags\kn.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\kn.png" Link="Data\Flags\kn.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\sc.svg" Link="Data\Flags\sc.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\sc.png" Link="Data\Flags\sc.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\mh.svg" Link="Data\Flags\mh.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\mh.png" Link="Data\Flags\mh.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\tl.svg" Link="Data\Flags\tl.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\tl.png" Link="Data\Flags\tl.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\mg.svg" Link="Data\Flags\mg.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\mg.png" Link="Data\Flags\mg.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\gq.svg" Link="Data\Flags\gq.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\gq.png" Link="Data\Flags\gq.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\rs.svg" Link="Data\Flags\rs.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\rs.png" Link="Data\Flags\rs.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ca.svg" Link="Data\Flags\ca.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ca.png" Link="Data\Flags\ca.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\kh.svg" Link="Data\Flags\kh.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\kh.png" Link="Data\Flags\kh.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\gg.svg" Link="Data\Flags\gg.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\gg.png" Link="Data\Flags\gg.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\gi.svg" Link="Data\Flags\gi.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\gi.png" Link="Data\Flags\gi.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ms.svg" Link="Data\Flags\ms.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ms.png" Link="Data\Flags\ms.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\so.svg" Link="Data\Flags\so.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\so.png" Link="Data\Flags\so.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\cn.svg" Link="Data\Flags\cn.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\cn.png" Link="Data\Flags\cn.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ch.svg" Link="Data\Flags\ch.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ch.png" Link="Data\Flags\ch.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ba.svg" Link="Data\Flags\ba.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ba.png" Link="Data\Flags\ba.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\tn.svg" Link="Data\Flags\tn.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\tn.png" Link="Data\Flags\tn.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\lu.svg" Link="Data\Flags\lu.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\lu.png" Link="Data\Flags\lu.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\tw.svg" Link="Data\Flags\tw.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\tw.png" Link="Data\Flags\tw.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\br.svg" Link="Data\Flags\br.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\br.png" Link="Data\Flags\br.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ag.svg" Link="Data\Flags\ag.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ag.png" Link="Data\Flags\ag.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\bv.svg" Link="Data\Flags\bv.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\bv.png" Link="Data\Flags\bv.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\sj.svg" Link="Data\Flags\sj.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\sj.png" Link="Data\Flags\sj.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\um.svg" Link="Data\Flags\um.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\um.png" Link="Data\Flags\um.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\sv.svg" Link="Data\Flags\sv.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\sv.png" Link="Data\Flags\sv.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\pe.svg" Link="Data\Flags\pe.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\pe.png" Link="Data\Flags\pe.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\lr.svg" Link="Data\Flags\lr.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\lr.png" Link="Data\Flags\lr.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ug.svg" Link="Data\Flags\ug.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ug.png" Link="Data\Flags\ug.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ck.svg" Link="Data\Flags\ck.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ck.png" Link="Data\Flags\ck.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\pt.svg" Link="Data\Flags\pt.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\pt.png" Link="Data\Flags\pt.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\vc.svg" Link="Data\Flags\vc.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\vc.png" Link="Data\Flags\vc.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\sh.svg" Link="Data\Flags\sh.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\sh.png" Link="Data\Flags\sh.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\hm.svg" Link="Data\Flags\hm.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\hm.png" Link="Data\Flags\hm.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\sx.svg" Link="Data\Flags\sx.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\sx.png" Link="Data\Flags\sx.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\pf.svg" Link="Data\Flags\pf.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\pf.png" Link="Data\Flags\pf.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\bq.svg" Link="Data\Flags\bq.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\bq.png" Link="Data\Flags\bq.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\de.svg" Link="Data\Flags\de.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\de.png" Link="Data\Flags\de.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\zw.svg" Link="Data\Flags\zw.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\zw.png" Link="Data\Flags\zw.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ad.svg" Link="Data\Flags\ad.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ad.png" Link="Data\Flags\ad.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\gu.svg" Link="Data\Flags\gu.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\gu.png" Link="Data\Flags\gu.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\sy.svg" Link="Data\Flags\sy.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\sy.png" Link="Data\Flags\sy.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ml.svg" Link="Data\Flags\ml.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ml.png" Link="Data\Flags\ml.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\dj.svg" Link="Data\Flags\dj.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\dj.png" Link="Data\Flags\dj.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\bg.svg" Link="Data\Flags\bg.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\bg.png" Link="Data\Flags\bg.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\gn.svg" Link="Data\Flags\gn.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\gn.png" Link="Data\Flags\gn.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\re.svg" Link="Data\Flags\re.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\re.png" Link="Data\Flags\re.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\cm.svg" Link="Data\Flags\cm.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\cm.png" Link="Data\Flags\cm.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\us.svg" Link="Data\Flags\us.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\us.png" Link="Data\Flags\us.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\sz.svg" Link="Data\Flags\sz.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\sz.png" Link="Data\Flags\sz.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\nr.svg" Link="Data\Flags\nr.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\nr.png" Link="Data\Flags\nr.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\kp.svg" Link="Data\Flags\kp.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\kp.png" Link="Data\Flags\kp.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\gf.svg" Link="Data\Flags\gf.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\gf.png" Link="Data\Flags\gf.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\lk.svg" Link="Data\Flags\lk.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\lk.png" Link="Data\Flags\lk.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ve.svg" Link="Data\Flags\ve.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ve.png" Link="Data\Flags\ve.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\mw.svg" Link="Data\Flags\mw.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\mw.png" Link="Data\Flags\mw.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ge.svg" Link="Data\Flags\ge.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ge.png" Link="Data\Flags\ge.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\hr.svg" Link="Data\Flags\hr.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\hr.png" Link="Data\Flags\hr.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ie.svg" Link="Data\Flags\ie.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ie.png" Link="Data\Flags\ie.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ne.svg" Link="Data\Flags\ne.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ne.png" Link="Data\Flags\ne.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\nf.svg" Link="Data\Flags\nf.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\nf.png" Link="Data\Flags\nf.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\td.svg" Link="Data\Flags\td.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\td.png" Link="Data\Flags\td.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\mo.svg" Link="Data\Flags\mo.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\mo.png" Link="Data\Flags\mo.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ai.svg" Link="Data\Flags\ai.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ai.png" Link="Data\Flags\ai.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\my.svg" Link="Data\Flags\my.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\my.png" Link="Data\Flags\my.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\pw.svg" Link="Data\Flags\pw.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\pw.png" Link="Data\Flags\pw.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\mn.svg" Link="Data\Flags\mn.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\mn.png" Link="Data\Flags\mn.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\az.svg" Link="Data\Flags\az.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\az.png" Link="Data\Flags\az.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\nc.svg" Link="Data\Flags\nc.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\nc.png" Link="Data\Flags\nc.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\hn.svg" Link="Data\Flags\hn.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\hn.png" Link="Data\Flags\hn.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\dm.svg" Link="Data\Flags\dm.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\dm.png" Link="Data\Flags\dm.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\xk.svg" Link="Data\Flags\xk.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\xk.png" Link="Data\Flags\xk.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\mm.svg" Link="Data\Flags\mm.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\mm.png" Link="Data\Flags\mm.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\fk.svg" Link="Data\Flags\fk.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\fk.png" Link="Data\Flags\fk.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\uy.svg" Link="Data\Flags\uy.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\uy.png" Link="Data\Flags\uy.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\bz.svg" Link="Data\Flags\bz.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\bz.png" Link="Data\Flags\bz.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\fi.svg" Link="Data\Flags\fi.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\fi.png" Link="Data\Flags\fi.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\id.svg" Link="Data\Flags\id.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\id.png" Link="Data\Flags\id.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\it.svg" Link="Data\Flags\it.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\it.png" Link="Data\Flags\it.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\tf.svg" Link="Data\Flags\tf.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\tf.png" Link="Data\Flags\tf.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\be.svg" Link="Data\Flags\be.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\be.png" Link="Data\Flags\be.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\je.svg" Link="Data\Flags\je.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\je.png" Link="Data\Flags\je.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\uz.svg" Link="Data\Flags\uz.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\uz.png" Link="Data\Flags\uz.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ua.svg" Link="Data\Flags\ua.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ua.png" Link="Data\Flags\ua.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\fo.svg" Link="Data\Flags\fo.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\fo.png" Link="Data\Flags\fo.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\bt.svg" Link="Data\Flags\bt.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\bt.png" Link="Data\Flags\bt.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\se.svg" Link="Data\Flags\se.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\se.png" Link="Data\Flags\se.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\il.svg" Link="Data\Flags\il.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\il.png" Link="Data\Flags\il.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\vu.svg" Link="Data\Flags\vu.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\vu.png" Link="Data\Flags\vu.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\me.svg" Link="Data\Flags\me.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\me.png" Link="Data\Flags\me.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\gr.svg" Link="Data\Flags\gr.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\gr.png" Link="Data\Flags\gr.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ae.svg" Link="Data\Flags\ae.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ae.png" Link="Data\Flags\ae.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ph.svg" Link="Data\Flags\ph.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ph.png" Link="Data\Flags\ph.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\mr.svg" Link="Data\Flags\mr.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\mr.png" Link="Data\Flags\mr.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\bd.svg" Link="Data\Flags\bd.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\bd.png" Link="Data\Flags\bd.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\bl.svg" Link="Data\Flags\bl.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\bl.png" Link="Data\Flags\bl.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\cf.svg" Link="Data\Flags\cf.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\cf.png" Link="Data\Flags\cf.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\pl.svg" Link="Data\Flags\pl.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\pl.png" Link="Data\Flags\pl.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\la.svg" Link="Data\Flags\la.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\la.png" Link="Data\Flags\la.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\ci.svg" Link="Data\Flags\ci.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\ci.png" Link="Data\Flags\ci.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\do.svg" Link="Data\Flags\do.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\do.png" Link="Data\Flags\do.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\gp.svg" Link="Data\Flags\gp.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\gp.png" Link="Data\Flags\gp.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\bj.svg" Link="Data\Flags\bj.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\bj.png" Link="Data\Flags\bj.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\li.svg" Link="Data\Flags\li.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\li.png" Link="Data\Flags\li.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\mv.svg" Link="Data\Flags\mv.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\mv.png" Link="Data\Flags\mv.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\sd.svg" Link="Data\Flags\sd.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\sd.png" Link="Data\Flags\sd.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\vi.svg" Link="Data\Flags\vi.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\vi.png" Link="Data\Flags\vi.png" />
-    <EmbeddedResource Include="..\..\..\data\flags\zm.svg" Link="Data\Flags\zm.svg" />
-    <EmbeddedResource Include="..\..\..\data\flags\zm.png" Link="Data\Flags\zm.png" />
-
+    <EmbeddedResource Include="data\countries.json" />
+    <EmbeddedResource Include="data\flags\ad.png" />
+    <EmbeddedResource Include="data\flags\ad.svg" />
+    <EmbeddedResource Include="data\flags\ae.png" />
+    <EmbeddedResource Include="data\flags\ae.svg" />
+    <EmbeddedResource Include="data\flags\af.png" />
+    <EmbeddedResource Include="data\flags\af.svg" />
+    <EmbeddedResource Include="data\flags\ag.png" />
+    <EmbeddedResource Include="data\flags\ag.svg" />
+    <EmbeddedResource Include="data\flags\ai.png" />
+    <EmbeddedResource Include="data\flags\ai.svg" />
+    <EmbeddedResource Include="data\flags\al.png" />
+    <EmbeddedResource Include="data\flags\al.svg" />
+    <EmbeddedResource Include="data\flags\am.png" />
+    <EmbeddedResource Include="data\flags\am.svg" />
+    <EmbeddedResource Include="data\flags\ao.png" />
+    <EmbeddedResource Include="data\flags\ao.svg" />
+    <EmbeddedResource Include="data\flags\aq.png" />
+    <EmbeddedResource Include="data\flags\aq.svg" />
+    <EmbeddedResource Include="data\flags\ar.png" />
+    <EmbeddedResource Include="data\flags\ar.svg" />
+    <EmbeddedResource Include="data\flags\as.png" />
+    <EmbeddedResource Include="data\flags\as.svg" />
+    <EmbeddedResource Include="data\flags\at.png" />
+    <EmbeddedResource Include="data\flags\at.svg" />
+    <EmbeddedResource Include="data\flags\au.png" />
+    <EmbeddedResource Include="data\flags\au.svg" />
+    <EmbeddedResource Include="data\flags\aw.png" />
+    <EmbeddedResource Include="data\flags\aw.svg" />
+    <EmbeddedResource Include="data\flags\ax.png" />
+    <EmbeddedResource Include="data\flags\ax.svg" />
+    <EmbeddedResource Include="data\flags\az.png" />
+    <EmbeddedResource Include="data\flags\az.svg" />
+    <EmbeddedResource Include="data\flags\ba.png" />
+    <EmbeddedResource Include="data\flags\ba.svg" />
+    <EmbeddedResource Include="data\flags\bb.png" />
+    <EmbeddedResource Include="data\flags\bb.svg" />
+    <EmbeddedResource Include="data\flags\bd.png" />
+    <EmbeddedResource Include="data\flags\bd.svg" />
+    <EmbeddedResource Include="data\flags\be.png" />
+    <EmbeddedResource Include="data\flags\be.svg" />
+    <EmbeddedResource Include="data\flags\bf.png" />
+    <EmbeddedResource Include="data\flags\bf.svg" />
+    <EmbeddedResource Include="data\flags\bg.png" />
+    <EmbeddedResource Include="data\flags\bg.svg" />
+    <EmbeddedResource Include="data\flags\bh.png" />
+    <EmbeddedResource Include="data\flags\bh.svg" />
+    <EmbeddedResource Include="data\flags\bi.png" />
+    <EmbeddedResource Include="data\flags\bi.svg" />
+    <EmbeddedResource Include="data\flags\bj.png" />
+    <EmbeddedResource Include="data\flags\bj.svg" />
+    <EmbeddedResource Include="data\flags\bl.png" />
+    <EmbeddedResource Include="data\flags\bl.svg" />
+    <EmbeddedResource Include="data\flags\bm.png" />
+    <EmbeddedResource Include="data\flags\bm.svg" />
+    <EmbeddedResource Include="data\flags\bn.png" />
+    <EmbeddedResource Include="data\flags\bn.svg" />
+    <EmbeddedResource Include="data\flags\bo.png" />
+    <EmbeddedResource Include="data\flags\bo.svg" />
+    <EmbeddedResource Include="data\flags\bq.png" />
+    <EmbeddedResource Include="data\flags\bq.svg" />
+    <EmbeddedResource Include="data\flags\br.png" />
+    <EmbeddedResource Include="data\flags\br.svg" />
+    <EmbeddedResource Include="data\flags\bs.png" />
+    <EmbeddedResource Include="data\flags\bs.svg" />
+    <EmbeddedResource Include="data\flags\bt.png" />
+    <EmbeddedResource Include="data\flags\bt.svg" />
+    <EmbeddedResource Include="data\flags\bv.png" />
+    <EmbeddedResource Include="data\flags\bv.svg" />
+    <EmbeddedResource Include="data\flags\bw.png" />
+    <EmbeddedResource Include="data\flags\bw.svg" />
+    <EmbeddedResource Include="data\flags\by.png" />
+    <EmbeddedResource Include="data\flags\by.svg" />
+    <EmbeddedResource Include="data\flags\bz.png" />
+    <EmbeddedResource Include="data\flags\bz.svg" />
+    <EmbeddedResource Include="data\flags\ca.png" />
+    <EmbeddedResource Include="data\flags\ca.svg" />
+    <EmbeddedResource Include="data\flags\cc.png" />
+    <EmbeddedResource Include="data\flags\cc.svg" />
+    <EmbeddedResource Include="data\flags\cd.png" />
+    <EmbeddedResource Include="data\flags\cd.svg" />
+    <EmbeddedResource Include="data\flags\cf.png" />
+    <EmbeddedResource Include="data\flags\cf.svg" />
+    <EmbeddedResource Include="data\flags\cg.png" />
+    <EmbeddedResource Include="data\flags\cg.svg" />
+    <EmbeddedResource Include="data\flags\ch.png" />
+    <EmbeddedResource Include="data\flags\ch.svg" />
+    <EmbeddedResource Include="data\flags\ci.png" />
+    <EmbeddedResource Include="data\flags\ci.svg" />
+    <EmbeddedResource Include="data\flags\ck.png" />
+    <EmbeddedResource Include="data\flags\ck.svg" />
+    <EmbeddedResource Include="data\flags\cl.png" />
+    <EmbeddedResource Include="data\flags\cl.svg" />
+    <EmbeddedResource Include="data\flags\cm.png" />
+    <EmbeddedResource Include="data\flags\cm.svg" />
+    <EmbeddedResource Include="data\flags\cn.png" />
+    <EmbeddedResource Include="data\flags\cn.svg" />
+    <EmbeddedResource Include="data\flags\co.png" />
+    <EmbeddedResource Include="data\flags\co.svg" />
+    <EmbeddedResource Include="data\flags\cr.png" />
+    <EmbeddedResource Include="data\flags\cr.svg" />
+    <EmbeddedResource Include="data\flags\cu.png" />
+    <EmbeddedResource Include="data\flags\cu.svg" />
+    <EmbeddedResource Include="data\flags\cv.png" />
+    <EmbeddedResource Include="data\flags\cv.svg" />
+    <EmbeddedResource Include="data\flags\cw.png" />
+    <EmbeddedResource Include="data\flags\cw.svg" />
+    <EmbeddedResource Include="data\flags\cx.png" />
+    <EmbeddedResource Include="data\flags\cx.svg" />
+    <EmbeddedResource Include="data\flags\cy.png" />
+    <EmbeddedResource Include="data\flags\cy.svg" />
+    <EmbeddedResource Include="data\flags\cz.png" />
+    <EmbeddedResource Include="data\flags\cz.svg" />
+    <EmbeddedResource Include="data\flags\de.png" />
+    <EmbeddedResource Include="data\flags\de.svg" />
+    <EmbeddedResource Include="data\flags\dj.png" />
+    <EmbeddedResource Include="data\flags\dj.svg" />
+    <EmbeddedResource Include="data\flags\dk.png" />
+    <EmbeddedResource Include="data\flags\dk.svg" />
+    <EmbeddedResource Include="data\flags\dm.png" />
+    <EmbeddedResource Include="data\flags\dm.svg" />
+    <EmbeddedResource Include="data\flags\do.png" />
+    <EmbeddedResource Include="data\flags\do.svg" />
+    <EmbeddedResource Include="data\flags\dz.png" />
+    <EmbeddedResource Include="data\flags\dz.svg" />
+    <EmbeddedResource Include="data\flags\ec.png" />
+    <EmbeddedResource Include="data\flags\ec.svg" />
+    <EmbeddedResource Include="data\flags\ee.png" />
+    <EmbeddedResource Include="data\flags\ee.svg" />
+    <EmbeddedResource Include="data\flags\eg.png" />
+    <EmbeddedResource Include="data\flags\eg.svg" />
+    <EmbeddedResource Include="data\flags\eh.png" />
+    <EmbeddedResource Include="data\flags\eh.svg" />
+    <EmbeddedResource Include="data\flags\er.png" />
+    <EmbeddedResource Include="data\flags\er.svg" />
+    <EmbeddedResource Include="data\flags\es.png" />
+    <EmbeddedResource Include="data\flags\es.svg" />
+    <EmbeddedResource Include="data\flags\et.png" />
+    <EmbeddedResource Include="data\flags\et.svg" />
+    <EmbeddedResource Include="data\flags\fi.png" />
+    <EmbeddedResource Include="data\flags\fi.svg" />
+    <EmbeddedResource Include="data\flags\fj.png" />
+    <EmbeddedResource Include="data\flags\fj.svg" />
+    <EmbeddedResource Include="data\flags\fk.png" />
+    <EmbeddedResource Include="data\flags\fk.svg" />
+    <EmbeddedResource Include="data\flags\fm.png" />
+    <EmbeddedResource Include="data\flags\fm.svg" />
+    <EmbeddedResource Include="data\flags\fo.png" />
+    <EmbeddedResource Include="data\flags\fo.svg" />
+    <EmbeddedResource Include="data\flags\fr.png" />
+    <EmbeddedResource Include="data\flags\fr.svg" />
+    <EmbeddedResource Include="data\flags\ga.png" />
+    <EmbeddedResource Include="data\flags\ga.svg" />
+    <EmbeddedResource Include="data\flags\gb.png" />
+    <EmbeddedResource Include="data\flags\gb.svg" />
+    <EmbeddedResource Include="data\flags\gd.png" />
+    <EmbeddedResource Include="data\flags\gd.svg" />
+    <EmbeddedResource Include="data\flags\ge.png" />
+    <EmbeddedResource Include="data\flags\ge.svg" />
+    <EmbeddedResource Include="data\flags\gf.png" />
+    <EmbeddedResource Include="data\flags\gf.svg" />
+    <EmbeddedResource Include="data\flags\gg.png" />
+    <EmbeddedResource Include="data\flags\gg.svg" />
+    <EmbeddedResource Include="data\flags\gh.png" />
+    <EmbeddedResource Include="data\flags\gh.svg" />
+    <EmbeddedResource Include="data\flags\gi.png" />
+    <EmbeddedResource Include="data\flags\gi.svg" />
+    <EmbeddedResource Include="data\flags\gl.png" />
+    <EmbeddedResource Include="data\flags\gl.svg" />
+    <EmbeddedResource Include="data\flags\gm.png" />
+    <EmbeddedResource Include="data\flags\gm.svg" />
+    <EmbeddedResource Include="data\flags\gn.png" />
+    <EmbeddedResource Include="data\flags\gn.svg" />
+    <EmbeddedResource Include="data\flags\gp.png" />
+    <EmbeddedResource Include="data\flags\gp.svg" />
+    <EmbeddedResource Include="data\flags\gq.png" />
+    <EmbeddedResource Include="data\flags\gq.svg" />
+    <EmbeddedResource Include="data\flags\gr.png" />
+    <EmbeddedResource Include="data\flags\gr.svg" />
+    <EmbeddedResource Include="data\flags\gs.png" />
+    <EmbeddedResource Include="data\flags\gs.svg" />
+    <EmbeddedResource Include="data\flags\gt.png" />
+    <EmbeddedResource Include="data\flags\gt.svg" />
+    <EmbeddedResource Include="data\flags\gu.png" />
+    <EmbeddedResource Include="data\flags\gu.svg" />
+    <EmbeddedResource Include="data\flags\gw.png" />
+    <EmbeddedResource Include="data\flags\gw.svg" />
+    <EmbeddedResource Include="data\flags\gy.png" />
+    <EmbeddedResource Include="data\flags\gy.svg" />
+    <EmbeddedResource Include="data\flags\hk.png" />
+    <EmbeddedResource Include="data\flags\hk.svg" />
+    <EmbeddedResource Include="data\flags\hm.png" />
+    <EmbeddedResource Include="data\flags\hm.svg" />
+    <EmbeddedResource Include="data\flags\hn.png" />
+    <EmbeddedResource Include="data\flags\hn.svg" />
+    <EmbeddedResource Include="data\flags\hr.png" />
+    <EmbeddedResource Include="data\flags\hr.svg" />
+    <EmbeddedResource Include="data\flags\ht.png" />
+    <EmbeddedResource Include="data\flags\ht.svg" />
+    <EmbeddedResource Include="data\flags\hu.png" />
+    <EmbeddedResource Include="data\flags\hu.svg" />
+    <EmbeddedResource Include="data\flags\id.png" />
+    <EmbeddedResource Include="data\flags\id.svg" />
+    <EmbeddedResource Include="data\flags\ie.png" />
+    <EmbeddedResource Include="data\flags\ie.svg" />
+    <EmbeddedResource Include="data\flags\il.png" />
+    <EmbeddedResource Include="data\flags\il.svg" />
+    <EmbeddedResource Include="data\flags\im.png" />
+    <EmbeddedResource Include="data\flags\im.svg" />
+    <EmbeddedResource Include="data\flags\in.png" />
+    <EmbeddedResource Include="data\flags\in.svg" />
+    <EmbeddedResource Include="data\flags\io.png" />
+    <EmbeddedResource Include="data\flags\io.svg" />
+    <EmbeddedResource Include="data\flags\iq.png" />
+    <EmbeddedResource Include="data\flags\iq.svg" />
+    <EmbeddedResource Include="data\flags\ir.png" />
+    <EmbeddedResource Include="data\flags\ir.svg" />
+    <EmbeddedResource Include="data\flags\is.png" />
+    <EmbeddedResource Include="data\flags\is.svg" />
+    <EmbeddedResource Include="data\flags\it.png" />
+    <EmbeddedResource Include="data\flags\it.svg" />
+    <EmbeddedResource Include="data\flags\je.png" />
+    <EmbeddedResource Include="data\flags\je.svg" />
+    <EmbeddedResource Include="data\flags\jm.png" />
+    <EmbeddedResource Include="data\flags\jm.svg" />
+    <EmbeddedResource Include="data\flags\jo.png" />
+    <EmbeddedResource Include="data\flags\jo.svg" />
+    <EmbeddedResource Include="data\flags\jp.png" />
+    <EmbeddedResource Include="data\flags\jp.svg" />
+    <EmbeddedResource Include="data\flags\ke.png" />
+    <EmbeddedResource Include="data\flags\ke.svg" />
+    <EmbeddedResource Include="data\flags\kg.png" />
+    <EmbeddedResource Include="data\flags\kg.svg" />
+    <EmbeddedResource Include="data\flags\kh.png" />
+    <EmbeddedResource Include="data\flags\kh.svg" />
+    <EmbeddedResource Include="data\flags\ki.png" />
+    <EmbeddedResource Include="data\flags\ki.svg" />
+    <EmbeddedResource Include="data\flags\km.png" />
+    <EmbeddedResource Include="data\flags\km.svg" />
+    <EmbeddedResource Include="data\flags\kn.png" />
+    <EmbeddedResource Include="data\flags\kn.svg" />
+    <EmbeddedResource Include="data\flags\kp.png" />
+    <EmbeddedResource Include="data\flags\kp.svg" />
+    <EmbeddedResource Include="data\flags\kr.png" />
+    <EmbeddedResource Include="data\flags\kr.svg" />
+    <EmbeddedResource Include="data\flags\kw.png" />
+    <EmbeddedResource Include="data\flags\kw.svg" />
+    <EmbeddedResource Include="data\flags\ky.png" />
+    <EmbeddedResource Include="data\flags\ky.svg" />
+    <EmbeddedResource Include="data\flags\kz.png" />
+    <EmbeddedResource Include="data\flags\kz.svg" />
+    <EmbeddedResource Include="data\flags\la.png" />
+    <EmbeddedResource Include="data\flags\la.svg" />
+    <EmbeddedResource Include="data\flags\lb.png" />
+    <EmbeddedResource Include="data\flags\lb.svg" />
+    <EmbeddedResource Include="data\flags\lc.png" />
+    <EmbeddedResource Include="data\flags\lc.svg" />
+    <EmbeddedResource Include="data\flags\li.png" />
+    <EmbeddedResource Include="data\flags\li.svg" />
+    <EmbeddedResource Include="data\flags\lk.png" />
+    <EmbeddedResource Include="data\flags\lk.svg" />
+    <EmbeddedResource Include="data\flags\lr.png" />
+    <EmbeddedResource Include="data\flags\lr.svg" />
+    <EmbeddedResource Include="data\flags\ls.png" />
+    <EmbeddedResource Include="data\flags\ls.svg" />
+    <EmbeddedResource Include="data\flags\lt.png" />
+    <EmbeddedResource Include="data\flags\lt.svg" />
+    <EmbeddedResource Include="data\flags\lu.png" />
+    <EmbeddedResource Include="data\flags\lu.svg" />
+    <EmbeddedResource Include="data\flags\lv.png" />
+    <EmbeddedResource Include="data\flags\lv.svg" />
+    <EmbeddedResource Include="data\flags\ly.png" />
+    <EmbeddedResource Include="data\flags\ly.svg" />
+    <EmbeddedResource Include="data\flags\ma.png" />
+    <EmbeddedResource Include="data\flags\ma.svg" />
+    <EmbeddedResource Include="data\flags\mc.png" />
+    <EmbeddedResource Include="data\flags\mc.svg" />
+    <EmbeddedResource Include="data\flags\md.png" />
+    <EmbeddedResource Include="data\flags\md.svg" />
+    <EmbeddedResource Include="data\flags\me.png" />
+    <EmbeddedResource Include="data\flags\me.svg" />
+    <EmbeddedResource Include="data\flags\mf.png" />
+    <EmbeddedResource Include="data\flags\mf.svg" />
+    <EmbeddedResource Include="data\flags\mg.png" />
+    <EmbeddedResource Include="data\flags\mg.svg" />
+    <EmbeddedResource Include="data\flags\mh.png" />
+    <EmbeddedResource Include="data\flags\mh.svg" />
+    <EmbeddedResource Include="data\flags\mk.png" />
+    <EmbeddedResource Include="data\flags\mk.svg" />
+    <EmbeddedResource Include="data\flags\ml.png" />
+    <EmbeddedResource Include="data\flags\ml.svg" />
+    <EmbeddedResource Include="data\flags\mm.png" />
+    <EmbeddedResource Include="data\flags\mm.svg" />
+    <EmbeddedResource Include="data\flags\mn.png" />
+    <EmbeddedResource Include="data\flags\mn.svg" />
+    <EmbeddedResource Include="data\flags\mo.png" />
+    <EmbeddedResource Include="data\flags\mo.svg" />
+    <EmbeddedResource Include="data\flags\mp.png" />
+    <EmbeddedResource Include="data\flags\mp.svg" />
+    <EmbeddedResource Include="data\flags\mq.png" />
+    <EmbeddedResource Include="data\flags\mq.svg" />
+    <EmbeddedResource Include="data\flags\mr.png" />
+    <EmbeddedResource Include="data\flags\mr.svg" />
+    <EmbeddedResource Include="data\flags\ms.png" />
+    <EmbeddedResource Include="data\flags\ms.svg" />
+    <EmbeddedResource Include="data\flags\mt.png" />
+    <EmbeddedResource Include="data\flags\mt.svg" />
+    <EmbeddedResource Include="data\flags\mu.png" />
+    <EmbeddedResource Include="data\flags\mu.svg" />
+    <EmbeddedResource Include="data\flags\mv.png" />
+    <EmbeddedResource Include="data\flags\mv.svg" />
+    <EmbeddedResource Include="data\flags\mw.png" />
+    <EmbeddedResource Include="data\flags\mw.svg" />
+    <EmbeddedResource Include="data\flags\mx.png" />
+    <EmbeddedResource Include="data\flags\mx.svg" />
+    <EmbeddedResource Include="data\flags\my.png" />
+    <EmbeddedResource Include="data\flags\my.svg" />
+    <EmbeddedResource Include="data\flags\mz.png" />
+    <EmbeddedResource Include="data\flags\mz.svg" />
+    <EmbeddedResource Include="data\flags\na.png" />
+    <EmbeddedResource Include="data\flags\na.svg" />
+    <EmbeddedResource Include="data\flags\nc.png" />
+    <EmbeddedResource Include="data\flags\nc.svg" />
+    <EmbeddedResource Include="data\flags\ne.png" />
+    <EmbeddedResource Include="data\flags\ne.svg" />
+    <EmbeddedResource Include="data\flags\nf.png" />
+    <EmbeddedResource Include="data\flags\nf.svg" />
+    <EmbeddedResource Include="data\flags\ng.png" />
+    <EmbeddedResource Include="data\flags\ng.svg" />
+    <EmbeddedResource Include="data\flags\ni.png" />
+    <EmbeddedResource Include="data\flags\ni.svg" />
+    <EmbeddedResource Include="data\flags\nl.png" />
+    <EmbeddedResource Include="data\flags\nl.svg" />
+    <EmbeddedResource Include="data\flags\no.png" />
+    <EmbeddedResource Include="data\flags\no.svg" />
+    <EmbeddedResource Include="data\flags\np.png" />
+    <EmbeddedResource Include="data\flags\np.svg" />
+    <EmbeddedResource Include="data\flags\nr.png" />
+    <EmbeddedResource Include="data\flags\nr.svg" />
+    <EmbeddedResource Include="data\flags\nu.png" />
+    <EmbeddedResource Include="data\flags\nu.svg" />
+    <EmbeddedResource Include="data\flags\nz.png" />
+    <EmbeddedResource Include="data\flags\nz.svg" />
+    <EmbeddedResource Include="data\flags\om.png" />
+    <EmbeddedResource Include="data\flags\om.svg" />
+    <EmbeddedResource Include="data\flags\pa.png" />
+    <EmbeddedResource Include="data\flags\pa.svg" />
+    <EmbeddedResource Include="data\flags\pe.png" />
+    <EmbeddedResource Include="data\flags\pe.svg" />
+    <EmbeddedResource Include="data\flags\pf.png" />
+    <EmbeddedResource Include="data\flags\pf.svg" />
+    <EmbeddedResource Include="data\flags\pg.png" />
+    <EmbeddedResource Include="data\flags\pg.svg" />
+    <EmbeddedResource Include="data\flags\ph.png" />
+    <EmbeddedResource Include="data\flags\ph.svg" />
+    <EmbeddedResource Include="data\flags\pk.png" />
+    <EmbeddedResource Include="data\flags\pk.svg" />
+    <EmbeddedResource Include="data\flags\pl.png" />
+    <EmbeddedResource Include="data\flags\pl.svg" />
+    <EmbeddedResource Include="data\flags\pm.png" />
+    <EmbeddedResource Include="data\flags\pm.svg" />
+    <EmbeddedResource Include="data\flags\pn.png" />
+    <EmbeddedResource Include="data\flags\pn.svg" />
+    <EmbeddedResource Include="data\flags\pr.png" />
+    <EmbeddedResource Include="data\flags\pr.svg" />
+    <EmbeddedResource Include="data\flags\ps.png" />
+    <EmbeddedResource Include="data\flags\ps.svg" />
+    <EmbeddedResource Include="data\flags\pt.png" />
+    <EmbeddedResource Include="data\flags\pt.svg" />
+    <EmbeddedResource Include="data\flags\pw.png" />
+    <EmbeddedResource Include="data\flags\pw.svg" />
+    <EmbeddedResource Include="data\flags\py.png" />
+    <EmbeddedResource Include="data\flags\py.svg" />
+    <EmbeddedResource Include="data\flags\qa.png" />
+    <EmbeddedResource Include="data\flags\qa.svg" />
+    <EmbeddedResource Include="data\flags\re.png" />
+    <EmbeddedResource Include="data\flags\re.svg" />
+    <EmbeddedResource Include="data\flags\ro.png" />
+    <EmbeddedResource Include="data\flags\ro.svg" />
+    <EmbeddedResource Include="data\flags\rs.png" />
+    <EmbeddedResource Include="data\flags\rs.svg" />
+    <EmbeddedResource Include="data\flags\ru.png" />
+    <EmbeddedResource Include="data\flags\ru.svg" />
+    <EmbeddedResource Include="data\flags\rw.png" />
+    <EmbeddedResource Include="data\flags\rw.svg" />
+    <EmbeddedResource Include="data\flags\sa.png" />
+    <EmbeddedResource Include="data\flags\sa.svg" />
+    <EmbeddedResource Include="data\flags\sb.png" />
+    <EmbeddedResource Include="data\flags\sb.svg" />
+    <EmbeddedResource Include="data\flags\sc.png" />
+    <EmbeddedResource Include="data\flags\sc.svg" />
+    <EmbeddedResource Include="data\flags\sd.png" />
+    <EmbeddedResource Include="data\flags\sd.svg" />
+    <EmbeddedResource Include="data\flags\se.png" />
+    <EmbeddedResource Include="data\flags\se.svg" />
+    <EmbeddedResource Include="data\flags\sg.png" />
+    <EmbeddedResource Include="data\flags\sg.svg" />
+    <EmbeddedResource Include="data\flags\sh.png" />
+    <EmbeddedResource Include="data\flags\sh.svg" />
+    <EmbeddedResource Include="data\flags\si.png" />
+    <EmbeddedResource Include="data\flags\si.svg" />
+    <EmbeddedResource Include="data\flags\sj.png" />
+    <EmbeddedResource Include="data\flags\sj.svg" />
+    <EmbeddedResource Include="data\flags\sk.png" />
+    <EmbeddedResource Include="data\flags\sk.svg" />
+    <EmbeddedResource Include="data\flags\sl.png" />
+    <EmbeddedResource Include="data\flags\sl.svg" />
+    <EmbeddedResource Include="data\flags\sm.png" />
+    <EmbeddedResource Include="data\flags\sm.svg" />
+    <EmbeddedResource Include="data\flags\sn.png" />
+    <EmbeddedResource Include="data\flags\sn.svg" />
+    <EmbeddedResource Include="data\flags\so.png" />
+    <EmbeddedResource Include="data\flags\so.svg" />
+    <EmbeddedResource Include="data\flags\sr.png" />
+    <EmbeddedResource Include="data\flags\sr.svg" />
+    <EmbeddedResource Include="data\flags\ss.png" />
+    <EmbeddedResource Include="data\flags\ss.svg" />
+    <EmbeddedResource Include="data\flags\st.png" />
+    <EmbeddedResource Include="data\flags\st.svg" />
+    <EmbeddedResource Include="data\flags\sv.png" />
+    <EmbeddedResource Include="data\flags\sv.svg" />
+    <EmbeddedResource Include="data\flags\sx.png" />
+    <EmbeddedResource Include="data\flags\sx.svg" />
+    <EmbeddedResource Include="data\flags\sy.png" />
+    <EmbeddedResource Include="data\flags\sy.svg" />
+    <EmbeddedResource Include="data\flags\sz.png" />
+    <EmbeddedResource Include="data\flags\sz.svg" />
+    <EmbeddedResource Include="data\flags\tc.png" />
+    <EmbeddedResource Include="data\flags\tc.svg" />
+    <EmbeddedResource Include="data\flags\td.png" />
+    <EmbeddedResource Include="data\flags\td.svg" />
+    <EmbeddedResource Include="data\flags\tf.png" />
+    <EmbeddedResource Include="data\flags\tf.svg" />
+    <EmbeddedResource Include="data\flags\tg.png" />
+    <EmbeddedResource Include="data\flags\tg.svg" />
+    <EmbeddedResource Include="data\flags\th.png" />
+    <EmbeddedResource Include="data\flags\th.svg" />
+    <EmbeddedResource Include="data\flags\tj.png" />
+    <EmbeddedResource Include="data\flags\tj.svg" />
+    <EmbeddedResource Include="data\flags\tk.png" />
+    <EmbeddedResource Include="data\flags\tk.svg" />
+    <EmbeddedResource Include="data\flags\tl.png" />
+    <EmbeddedResource Include="data\flags\tl.svg" />
+    <EmbeddedResource Include="data\flags\tm.png" />
+    <EmbeddedResource Include="data\flags\tm.svg" />
+    <EmbeddedResource Include="data\flags\tn.png" />
+    <EmbeddedResource Include="data\flags\tn.svg" />
+    <EmbeddedResource Include="data\flags\to.png" />
+    <EmbeddedResource Include="data\flags\to.svg" />
+    <EmbeddedResource Include="data\flags\tr.png" />
+    <EmbeddedResource Include="data\flags\tr.svg" />
+    <EmbeddedResource Include="data\flags\tt.png" />
+    <EmbeddedResource Include="data\flags\tt.svg" />
+    <EmbeddedResource Include="data\flags\tv.png" />
+    <EmbeddedResource Include="data\flags\tv.svg" />
+    <EmbeddedResource Include="data\flags\tw.png" />
+    <EmbeddedResource Include="data\flags\tw.svg" />
+    <EmbeddedResource Include="data\flags\tz.png" />
+    <EmbeddedResource Include="data\flags\tz.svg" />
+    <EmbeddedResource Include="data\flags\ua.png" />
+    <EmbeddedResource Include="data\flags\ua.svg" />
+    <EmbeddedResource Include="data\flags\ug.png" />
+    <EmbeddedResource Include="data\flags\ug.svg" />
+    <EmbeddedResource Include="data\flags\um.png" />
+    <EmbeddedResource Include="data\flags\um.svg" />
+    <EmbeddedResource Include="data\flags\us.png" />
+    <EmbeddedResource Include="data\flags\us.svg" />
+    <EmbeddedResource Include="data\flags\uy.png" />
+    <EmbeddedResource Include="data\flags\uy.svg" />
+    <EmbeddedResource Include="data\flags\uz.png" />
+    <EmbeddedResource Include="data\flags\uz.svg" />
+    <EmbeddedResource Include="data\flags\va.png" />
+    <EmbeddedResource Include="data\flags\va.svg" />
+    <EmbeddedResource Include="data\flags\vc.png" />
+    <EmbeddedResource Include="data\flags\vc.svg" />
+    <EmbeddedResource Include="data\flags\ve.png" />
+    <EmbeddedResource Include="data\flags\ve.svg" />
+    <EmbeddedResource Include="data\flags\vg.png" />
+    <EmbeddedResource Include="data\flags\vg.svg" />
+    <EmbeddedResource Include="data\flags\vi.png" />
+    <EmbeddedResource Include="data\flags\vi.svg" />
+    <EmbeddedResource Include="data\flags\vn.png" />
+    <EmbeddedResource Include="data\flags\vn.svg" />
+    <EmbeddedResource Include="data\flags\vu.png" />
+    <EmbeddedResource Include="data\flags\vu.svg" />
+    <EmbeddedResource Include="data\flags\wf.png" />
+    <EmbeddedResource Include="data\flags\wf.svg" />
+    <EmbeddedResource Include="data\flags\ws.png" />
+    <EmbeddedResource Include="data\flags\ws.svg" />
+    <EmbeddedResource Include="data\flags\xk.png" />
+    <EmbeddedResource Include="data\flags\xk.svg" />
+    <EmbeddedResource Include="data\flags\ye.png" />
+    <EmbeddedResource Include="data\flags\ye.svg" />
+    <EmbeddedResource Include="data\flags\yt.png" />
+    <EmbeddedResource Include="data\flags\yt.svg" />
+    <EmbeddedResource Include="data\flags\za.png" />
+    <EmbeddedResource Include="data\flags\za.svg" />
+    <EmbeddedResource Include="data\flags\zm.png" />
+    <EmbeddedResource Include="data\flags\zm.svg" />
+    <EmbeddedResource Include="data\flags\zw.png" />
+    <EmbeddedResource Include="data\flags\zw.svg" />
   </ItemGroup>
 
 </Project>
