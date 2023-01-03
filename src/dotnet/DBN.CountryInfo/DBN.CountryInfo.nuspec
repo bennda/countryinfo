@@ -9,6 +9,7 @@
     <license type="expression">MIT</license>
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
     <icon>icon.png</icon>
+    <readme>nuget.md</readme>
     <projectUrl>https://github.com/dnbnt/countryinfo</projectUrl>
     <description>.NET library to get country data and flags, incl. time zones, capitals, names, geo data, etc...</description>
     <releaseNotes>see https://github.com/dnbnt/countryinfo</releaseNotes>
