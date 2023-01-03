@@ -8,16 +8,20 @@ VERSION=1.0
 help:
 	@echo "Makefile arguments:"
 	@echo ""
-	@echo "init : download country resources and write .csproj file"
-	@echo "nuget: build nuget packages"
+	@echo "all           : init, build and publish"
+	@echo "init          : download country resources files"
+	@echo "build         : build all projects"
+	@echo "dotnet-lib    : build DBN.CountryInfo, incl. nuget package"
+	@echo "dotnet-service: build DBN.CountryInfo.Service, incl. docker image"
 
-.DEFAULT_GOAL := all
+.DEFAULT_GOAL := help
 
 init:
 	@mkdir -p $$(pwd)/data
 	@docker run --rm \
 		-v $$(pwd)/data:/data \
-		-v $$(pwd)/src:/src mcr.microsoft.com/powershell pwsh /data/dump.ps1
+		-v $$(pwd)/src/scripts:/src mcr.microsoft.com/powershell \
+		pwsh /src/dumpResources.ps1 -DumpPath /data
 
 dotnet-lib:
 	@echo "===== build project: DBN.CountryInfo"
@@ -50,6 +54,4 @@ dotnet-service:
 
 build: dotnet-lib dotnet-service
 
-publish: dotnet-nuget
-
-all: init build publish
+all: init build
