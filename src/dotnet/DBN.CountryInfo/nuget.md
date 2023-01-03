@@ -1,7 +1,7 @@
-# DBN.CountryInfo v1.0.0
+# DBN.CountryInfo
 .NET library to load country data, incl. image flags (.png/.svg). 
 
-Documentation is available on [GitHub](https://github.com/dnbnt/countryinfo/README.md).
+Documentation is available on [GitHub](https://github.com/dnbnt/countryinfo/tree/main/src/dotnet/DBN.CountryInfo).
 
 ## Usage
 
@@ -33,4 +33,4 @@ var sweden = CountryInfoProvider.Instance.GetCountryFlag("se", CountryFlagFormat
 
 ## License
 
-The MIT License (MIT) see [License file](https://github.com/dnbnt/countryinfo/LICENSE)
+The MIT License (MIT) see [License file](https://github.com/dnbnt/countryinfo/blob/main/LICENSE)

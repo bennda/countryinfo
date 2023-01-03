@@ -1,5 +1,7 @@
-# DBN.CountryInfo.Service v1.0.0
+# DBN.CountryInfo.Service
 Dockerized REST service that provides country data and flag images.
+
+Documentation is available on [GitHub](https://github.com/dnbnt/countryinfo/tree/main/src/dotnet/DBN.CountryInfo.Service).
 
 ## Usage
 
@@ -42,4 +44,4 @@ GET http://localhost:8080/countries/flags/de?format=svg
 
 ## License
 
-The MIT License (MIT) see [License file](https://github.com/dnbnt/countryinfo/LICENSE)
+The MIT License (MIT) see [License file](https://github.com/dnbnt/countryinfo/blob/main/LICENSE)
