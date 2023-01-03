@@ -20,16 +20,16 @@ make nuget
 ## DNB.CountryInfo
 .NET library that contains country data and flags
 
-See documentation [here](https://github.com/dnbnt/src/dotnet/DBN.CountryInfo/README.md)
+See documentation [here](https://github.com/dnbnt/countryinfo/blob/main/src/dotnet/DBN.CountryInfo/README.md)
 
 ## DNB.CountryInfo.Service
 Dockerized REST service that provides country data and flags.
 
-See documentation [here](https://github.com/dnbnt/src/dotnet/DBN.CountryInfo.Service/README.md)
+See documentation [here](https://github.com/dnbnt/countryinfo/blob/main/src/dotnet/DBN.CountryInfo.Service/README.md)
 
 ## DNB.CountryInfo.Test
 Unit test project for DNB.CountryInfo
 
 ## License
 
-The MIT License (MIT) see [License file](https://github.com/dnbnt/countryinfo/LICENSE)
+The MIT License (MIT) see [License file](https://github.com/dnbnt/countryinfo/blob/main/LICENSE)
