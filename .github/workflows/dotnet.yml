@@ -23,6 +23,7 @@ jobs:
     - name: Dump resource files
       run: |
         ./src/scripts/dumpResources.ps1 -DumpPath ./data
+      shell: pwsh
     - name: Restore dependencies
       run: dotnet restore src/dotnet/DBN.CountryInfo.sln
     - name: Build
