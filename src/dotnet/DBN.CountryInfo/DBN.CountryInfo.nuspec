@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>DBN.CountryInfo</id>
+    <version>1.0.0</version>
+    <title>DBN.CountryInfo</title>
+    <authors>Daniel Bennett</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>icon.png</icon>
+    <projectUrl>https://github.com/dnbnt/countryinfo</projectUrl>
+    <description>.NET library to get country data and flags, incl. time zones, capitals, names, geo data, etc...</description>
+    <releaseNotes>see https://github.com/dnbnt/countryinfo</releaseNotes>
+    <copyright>Copyright 2023</copyright>
+    <tags>countries, flags, countryinfo, currencies, capitals, time zones</tags>
+    <dependencies>
+      <group targetFramework="netstandard2.1">
+        <dependency id="System.Text.Json" version="7.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="icon.png" target ="" />
+    <file src="nuget.md" target ="" />
+    <file src="bin\release\netstandard2.1\DBN.CountryInfo.dll" target="lib\netstandard2.1" />
+  </files>
+</package>
