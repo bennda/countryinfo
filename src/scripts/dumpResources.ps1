@@ -82,7 +82,7 @@ function Get-Flag {
     $msg = "...$name  -->  $file"
     if (!(Test-Path "$file") -or $Force) {
       $msg += " [copy]"
-      Copy-Item -Path "$outputFile" -Destination "$file"
+      Copy-Item -Path "$outputFile" -Destination (New-Item "$file" -Force) -Force
     }
     Write-Host "$msg"
   }
