@@ -69,12 +69,20 @@ function Get-Flag {
     }
   }
 
-  $OutputPaths | ForEach-Object {
-    $outputFile = "$_/$outputName"
-    $msg = "...$name  -->  $outputFile"
-    if (!(Test-Path "$outputFile") -or $Force) {
-      $msg += " [download]"
-      Invoke-WebRequest -Uri "$Link" -OutFile (New-Item "$outputFile" -Force)
+  $outputFile = "$($OutputPaths[0])/$($outputName)"
+  $msg = "...$name  -->  $outputFile"
+  if (!(Test-Path "$outputFile") -or $Force) {
+    $msg += " [download]"
+    Invoke-WebRequest -Uri "$Link" -OutFile (New-Item "$outputFile" -Force)
+  }
+  Write-Host "$msg"
+
+  for ($i = 1; $i -lt $OutputPaths.Count; $i++) {
+    $file = "$($OutputPaths[$i])/$($outputName)"
+    $msg = "...$name  -->  $file"
+    if (!(Test-Path "$file") -or $Force) {
+      $msg += " [copy]"
+      Copy-Item -Path "$outputFile" -Destination "$file"
     }
     Write-Host "$msg"
   }
@@ -138,9 +146,22 @@ function Get-ConvertedCountries {
   return $countries
 }
 
-# get countries
+# get countries from source
 Write-Host "`n===== get countries from source"
 $sourceCountries = Get-SourceCountries -URL "$URL" -OutputFile "$countriesFile" -Force $Force
+
+# convert source countries to countries
+$countries = Get-ConvertedCountries -SourceFile "$countriesFile"
+$json = $countries | ConvertTo-Json -Depth 100 -Compress 
+
+Write-Host "`n===== write countries.json"
+@(
+  "$BasePath/src/dotnet/DBN.CountryInfo/Data/countries.json",
+  "$BasePath/src/nodejs/server/data/countries.json"
+) | ForEach-Object {
+  Write-Host "file: $_"
+  "$json" | Out-File (New-Item "$_" -Force) -Encoding utf8 -Force
+}
 
 # get country flags
 Write-Host "`n===== get flags"
@@ -151,10 +172,3 @@ foreach ($country in $sourceCountries) {
     $flags += Get-Flag -Link "$_" -Code $country.cca2 -OutputPaths $flagOutputPaths -Force $ForceFlags
   }
 }
-
-# convert source countries into
-$countries = Get-ConvertedCountries -SourceFile "$countriesFile"
-$json = $countries | ConvertTo-Json -Depth 100 -Compress 
-
-"$json" | Out-File (New-Item "$BasePath/src/dotnet/DBN.CountryInfo/Data/countries.json" -Force) -Encoding utf8 -Force
-"$json" | Out-File (New-Item "$BasePath/src/nodejs/server/data/countries.json" -Force) -Encoding utf8 -Force
