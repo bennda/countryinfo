@@ -1,4 +1,4 @@
-# DBN.CountryInfo.Service
+# Node.js CountryInfo REST Service
 Dockerized REST service that provides country data and flag images.
 
 ## Usage
@@ -8,12 +8,12 @@ Build docker image and start container.
 ### Build image
 Note: Build context needs to be the repository's root directory
 ```
-docker build -f ./Dockerfile -t dnbnt/countryinfo:1.0-net ./../../..
+docker build -f ./Dockerfile -t dnbnt/countryinfo:1.0-nodejs ./../../..
 ```
 
 ### Start container
 ```
-docker run --rm -d -p 8080:80 --name countryinfo dnbnt/countryinfo:1.0-net
+docker run --rm -d -p 8080:8080 --name countryinfo dnbnt/countryinfo:1.0-nodejs
 ```
 
 ## Examples
