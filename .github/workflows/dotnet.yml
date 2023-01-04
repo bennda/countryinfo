@@ -22,7 +22,7 @@ jobs:
         dotnet-version: 7.0.x
     - name: Dump resource files
       run: |
-        ./src/scripts/dumpResources.ps1 -DumpPath ./data
+        ./src/scripts/dumpResources.ps1 -BasePath ./
       shell: pwsh
     - name: Restore dependencies
       run: dotnet restore src/dotnet/DBN.CountryInfo.sln
