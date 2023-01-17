@@ -1,0 +1,18 @@
+<p *ngIf="!countries?.length"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="countries.length">
+  <thead>
+    <tr>
+      <th>Code</th>
+      <th>Name</th>
+      <th>Flag</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let country of countries">
+      <td>{{ country.code }}</td>
+      <td>{{ country.name }}</td>
+      <td><img src="countryinfo/{{ country.code }}/flag"/></td>
+    </tr>
+  </tbody>
+</table>

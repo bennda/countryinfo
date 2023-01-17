@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBN.CountryInfo.Test", "DBN
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBN.CountryInfo.Service", "DBN.CountryInfo.Service\DBN.CountryInfo.Service.csproj", "{EC2127A1-C9F2-4848-9FF0-00F38F57C5E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBN.CountryInfo.Angular", "DBN.CountryInfo.Angular\DBN.CountryInfo.Angular.csproj", "{2BD9316E-BA7F-438F-8EC8-B9E9384A78AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EC2127A1-C9F2-4848-9FF0-00F38F57C5E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC2127A1-C9F2-4848-9FF0-00F38F57C5E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC2127A1-C9F2-4848-9FF0-00F38F57C5E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD9316E-BA7F-438F-8EC8-B9E9384A78AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD9316E-BA7F-438F-8EC8-B9E9384A78AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD9316E-BA7F-438F-8EC8-B9E9384A78AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD9316E-BA7F-438F-8EC8-B9E9384A78AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
