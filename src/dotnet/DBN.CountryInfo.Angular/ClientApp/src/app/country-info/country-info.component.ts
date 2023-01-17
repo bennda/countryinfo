@@ -6,30 +6,29 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: './country-info.component.html',
 })
 export class CountryInfoComponent {
-  private _countries: Country[] = [];
+  private http: HttpClient;
+  private baseUrl: string;
   public countries: Country[] = [];
 
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
-    http.get<Country[]>(baseUrl + 'countryinfo').subscribe(result => {
-      this._countries = result;
-      this.filterCountries('');
-    }, error => console.error(error));
+    this.http = http;
+    this.baseUrl = baseUrl;
+    this.filterCountries('');
   }
 
   filterCountries(searchText: string) {
     searchText = searchText.trim().toLowerCase();
     if (searchText) {
-      this.countries = this._countries.filter((obj) => {
-        return obj.code.toLowerCase().includes(searchText)
-          || obj.name.toLowerCase().includes(searchText)
-      });
-    } else {
-      this.countries = this._countries;
+      searchText = '?search=' + searchText;
     }
+
+    this.http.get<Country[]>(this.baseUrl + 'countryinfo' + searchText).subscribe(result => {
+      this.countries = result;
+    }, error => console.error(error));
   }
 
   onFilterCountries(event: any) {
-    this.filterCountries(event.target.value.toLowerCase().trim());
+    this.filterCountries(event.target.value);
   }
 }
 

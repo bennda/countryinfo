@@ -14,7 +14,7 @@ Filter Countries: <input type="text" (keyup)="onFilterCountries($event)"/>
     <tr *ngFor="let country of countries">
       <td>{{ country.code }}</td>
       <td>{{ country.name }}</td>
-      <td><img src="countryinfo/{{ country.code }}/flag"/></td>
+      <td><img src="countryinfo/{{ country.code }}/flag" width="80" height="40"/></td>
     </tr>
   </tbody>
 </table>
