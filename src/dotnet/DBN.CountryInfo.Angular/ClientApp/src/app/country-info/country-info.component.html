@@ -1,4 +1,6 @@
-<p *ngIf="!countries?.length"><em>Loading...</em></p>
+Filter Countries: <input type="text" (keyup)="onFilterCountries($event)"/>
+
+<!--p *ngIf="!countries?.length"><em>Loading...</em></p -->
 
 <table class='table table-striped' aria-labelledby="tableLabel" *ngIf="countries.length">
   <thead>
