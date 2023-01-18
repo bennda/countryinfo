@@ -1,14 +1,14 @@
-# DBN.CountryInfo.Service
-Dockerized REST service that provides country data and flag images.
+# DBN.CountryInfo.Angular
+Dockerized Angular web application that provides country data and flag images.
 
 ## Usage
 
 Build docker image and start container.
 
 ### Build image
-Note: Build context needs to be the repository's root directory
+
 ```
-docker build -f ./Dockerfile -t dnbnt/countryinfo:1.0-net ./../../..
+docker build -t dnbnt/countryinfo:1.0-net-angular .
 ```
 
 ### Start container

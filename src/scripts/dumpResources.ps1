@@ -157,7 +157,8 @@ $json = $countries | ConvertTo-Json -Depth 100 -Compress
 Write-Host "`n===== write countries.json"
 @(
   "$BasePath/src/dotnet/DBN.CountryInfo/Data/countries.json",
-  "$BasePath/src/nodejs/server/data/countries.json"
+  "$BasePath/src/nodejs/server/data/countries.json",
+  "$BasePath/src/go/server/data/countries.json"
 ) | ForEach-Object {
   Write-Host "file: $_"
   "$json" | Out-File (New-Item "$_" -Force) -Encoding utf8 -Force
@@ -165,7 +166,11 @@ Write-Host "`n===== write countries.json"
 
 # get country flags
 Write-Host "`n===== get flags"
-$flagOutputPaths = @("$BasePath/src/dotnet/DBN.CountryInfo/Data/Flags", "$BasePath/src/nodejs/server/data/flags")
+$flagOutputPaths = @(
+  "$BasePath/src/dotnet/DBN.CountryInfo/Data/Flags", 
+  "$BasePath/src/nodejs/server/data/flags", 
+  "$BasePath/src/go/server/data/flags"
+)
 $flags = @()
 foreach ($country in $sourceCountries) {
   $country.flags | ForEach-Object {

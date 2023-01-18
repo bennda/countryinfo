@@ -15,6 +15,7 @@ help:
 	@echo "dotnet-service: build DBN.CountryInfo.Service, incl. docker image"
 	@echo "dotnet-angular: build DBN.CountryInfo.Angular docker image"
 	@echo "nodejs-service: build dnbnt/countryinfo node.js docker image"
+	@echo "go-service    : build dnbnt/countryinfo go docker image"
 
 .DEFAULT_GOAL := help
 
@@ -66,6 +67,12 @@ nodejs-service:
 		-t dnbnt/countryinfo:${VERSION}-nodejs \
 		-f $$(pwd)/src/nodejs/server/Dockerfile $$(pwd)/src/nodejs/server
 
-build: dotnet-lib dotnet-service dotnet-angular nodejs-service
+go-service:
+	@echo "===== build go project: dbn.countryinfo"
+	@docker build --no-cache --pull \
+		-t dnbnt/countryinfo:${VERSION}-go \
+		-f $$(pwd)/src/go/server/Dockerfile $$(pwd)/src/go/server
+
+build: dotnet-lib dotnet-service dotnet-angular nodejs-service go-service
 
 all: init build
