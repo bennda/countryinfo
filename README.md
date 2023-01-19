@@ -32,6 +32,7 @@ The `Makefile` supports the following parameters:
 | `dotnet-react` | Build .NET React docker image |
 | `nodejs-service` | Build Node.js rest webservice docker image |
 | `go-service` | Build Go rest webservice docker image |
+| `test` | Test all projects |
 
 ## License
 The MIT License (MIT) see [License file](https://github.com/dnbnt/countryinfo/blob/main/LICENSE)
