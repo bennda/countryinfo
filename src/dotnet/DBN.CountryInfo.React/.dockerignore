@@ -1,0 +1,5 @@
+**/bin
+**/obj
+**/ClientApp/.angular
+**/ClientApp/dist
+**/ClientApp/node_modules

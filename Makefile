@@ -61,6 +61,12 @@ dotnet-angular:
 		-t dnbnt/countryinfo:${VERSION}-net-angular \
 		-f $$(pwd)/src/dotnet/DBN.CountryInfo.Angular/Dockerfile $$(pwd)/src/dotnet/DBN.CountryInfo.Angular
 
+dotnet-react:
+	@echo "\n===== build docker image: dnbnt/countryinfo:${VERSION}-net-react"
+	@docker build --no-cache --pull \
+		-t dnbnt/countryinfo:${VERSION}-net-react \
+		-f $$(pwd)/src/dotnet/DBN.CountryInfo.React/Dockerfile $$(pwd)/src/dotnet/DBN.CountryInfo.React
+
 nodejs-service:
 	@echo "===== build node.js project: dbn.countryinfo"
 	@docker build --no-cache --pull \
@@ -73,6 +79,6 @@ go-service:
 		-t dnbnt/countryinfo:${VERSION}-go \
 		-f $$(pwd)/src/go/server/Dockerfile $$(pwd)/src/go/server
 
-build: dotnet-lib dotnet-service dotnet-angular nodejs-service go-service
+build: dotnet-lib dotnet-service dotnet-angular dotnet-react nodejs-service go-service
 
 all: init build

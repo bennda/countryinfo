@@ -13,7 +13,7 @@ docker build -t dnbnt/countryinfo:1.0-net-angular .
 
 ### Start container
 ```
-docker run --rm -d -p 8080:80 --name countryinfo dnbnt/countryinfo:1.0-net
+docker run --rm -d -p 8080:80 --name countryinfo dnbnt/countryinfo:1.0-net-angular
 ```
 
 ## License
