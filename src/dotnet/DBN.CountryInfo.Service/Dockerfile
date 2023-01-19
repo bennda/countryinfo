@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/aspnet:7.0
+FROM mcr.microsoft.com/dotnet/aspnet:7.0.2-alpine3.17-amd64
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443

@@ -14,6 +14,7 @@ help:
 	@echo "dotnet-lib    : build DBN.CountryInfo, incl. nuget package"
 	@echo "dotnet-service: build DBN.CountryInfo.Service, incl. docker image"
 	@echo "dotnet-angular: build DBN.CountryInfo.Angular docker image"
+	@echo "dotnet-react  : build DBN.CountryInfo.React docker image"
 	@echo "nodejs-service: build dnbnt/countryinfo node.js docker image"
 	@echo "go-service    : build dnbnt/countryinfo go docker image"
 
