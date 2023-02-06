@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>DBN.CountryInfo</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>DBN.CountryInfo</title>
     <authors>Daniel Bennett</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
